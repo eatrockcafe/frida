@@ -1,13 +1,33 @@
-body{
-  background-color:;
+@charset "UTF-8";
+
+:root {
+  --color1: #000;
+  --color2: #333;
+  --color3: #08C;
+  --color4: #0C6;
+  --color5: #A00;
+  --color6: #ff6;
+
 }
 
-main{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  /* border: 1px solid white; */
+}
+
+body {
+  background-color: ;
+}
+
+main {
   width: 100%;
   margin: auto;
 }
 
-img{
+img {
   width: 100%;
   display: block;
 }
